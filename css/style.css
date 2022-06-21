@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(115, 115, 115);
+}
+
+.heading {
+  display: flex;
+  color: rgb(81, 20, 20);
+  justify-content: center;
+  align-items: center;
+}
+
+.heading > img {
+  height: 100px;
+}
+
+.heading > h1 {
+  margin-right: 93px;
+}
+
+label {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+#amount {
+  background-color: antiquewhite;
+  height: 20px;
+  width: 140px;
+  border: 2px black solid;
+}
+
+#currencies {
+  height: 26px;
+  border: 2px black solid;
+}
+
+#convert {
+  height: 26px;
+  border: 2px black solid;
+}
+
+#outcome {
+  display: block;
+  text-align: center;
+  color: rgb(81, 20, 20);
+  margin: 15px;
+  font-size: 40px;
+  font-weight: 800;
+}

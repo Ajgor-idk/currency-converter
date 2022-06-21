@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/js/index.js" defer></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Currency converter</title>
+  </head>
+  <body>
+    <main>
+      <div class="heading">
+        <img src="/img/logo-nbp-w4.png" alt="logo" />
+        <h1>Courrency Converter</h1>
+      </div>
+      <label>
+        <input
+          type="number"
+          id="amount"
+          min="0"
+          placeholder="Provide the amount"
+          title="Provide the amount of currency you want to convert."
+        />
+        <select
+          name="currencies"
+          id="currencies"
+          title="Select the currency you want to convert."
+        ></select>
+        <button id="convert" title="Click to convert.">Convert</button>
+      </label>
+    </main>
+  </body>
+</html>
