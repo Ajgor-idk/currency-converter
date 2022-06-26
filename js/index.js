@@ -53,4 +53,3 @@ window.onbeforeunload = () => sessionStorage.removeItem("clickcount");
 
 convertBtn.addEventListener("click", convert);
 
-//Możliwość poprawki i poprawienia tekstu w linijce 42, 47 na `The ${kwota jaka dali} ${nazwa waluty} equals to ${outcome} PLN`
