@@ -1,7 +1,7 @@
 const querySelect = (elem) => document.querySelector(elem);
 const createElem = (elem) => document.createElement(elem);
 
-const url = "http://api.nbp.pl/api/exchangerates/tables/c/last/";
+const url = "https://api.nbp.pl/api/exchangerates/tables/c/last/";
 const amount = querySelect("#amount");
 const convertBtn = querySelect("#convert");
 const currencyList = querySelect("#currencies");
